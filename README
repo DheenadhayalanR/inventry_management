@@ -1,0 +1,29 @@
+# Inventory Management System API
+
+This is a Django-based Inventory Management System API that allows users to manage their inventory through secure, JWT-authenticated endpoints. The API supports CRUD operations (Create, Read, Update, Delete) on inventory items, with Redis caching implemented for frequently accessed items to improve performance.
+
+## Features
+
+- **User Authentication**: User registration, login, and JWT token authentication.
+- **Inventory CRUD Operations**: Create, read, update, and delete items in the inventory.
+- **Redis Caching**: Frequently accessed items are cached in Redis to optimize performance.
+- **JWT Authentication**: Secure access to endpoints using JWT tokens.
+- **Django ORM**: Interact with the database through Django's ORM.
+- **Logging**: API usage and errors are logged.
+- **Unit Tests**: Unit tests are implemented to ensure API functionality.
+
+## Requirements
+
+- Python 3.8+
+- Django 4.0+
+- Django Rest Framework
+- Redis Server
+- PostgreSQL (or any preferred database supported by Django)
+- Redis Python Client (`django-redis`)
+
+## Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/inventory-management-system.git
+cd inventory-management-system
